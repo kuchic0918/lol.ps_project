@@ -1,0 +1,233 @@
+.champ-match-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 590px;
+    margin-bottom: 30px;
+    padding: 20px 20px 28px;
+    border-radius: 2px;
+    background-color:#FFFFFF;
+}
+
+.champ-match {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 900;
+    display: flex;
+    width: 100%;
+}
+
+.match-list  {
+    box-sizing: content-box;
+    overflow-y: scroll;
+    width: 50%;
+    height: 450px;
+    color: rgba(47,62,78,.7);
+}
+
+.match-list img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.match-list h4 {
+    color: #213a96;
+    margin: 0;
+    display: block;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    z-index: 1;
+    padding-bottom: 12px;
+}
+
+.hard-list {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 10px 16px;
+}
+
+.hard-list:hover {
+    background-color: rgba(126,155,255,.2);
+    color: #353945;
+}
+
+.gray {
+    background-color: rgba(53,57,69,.03);
+}
+
+.hard {
+    color: #D72719;
+}
+
+.easy {
+    color: #00A777;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 900;
+    width: 100%;
+    height: 40px;
+}
+
+.content-container {
+    width: 100%;
+    height: 350px;
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.spell-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.spell-item-content {
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+
+.number {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.number-items {
+    color: #2F3E4E66;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.spell-box {
+    padding: 8px 0px;
+    border-right: 1px solid rgba(53, 57, 69, 0.2);
+    height: 100%;
+    width: 33.3%;
+}
+
+.spell-box h4 {
+    margin: 0;
+}
+
+.spell {
+    display: flex;
+    justify-content: left;
+    width: 30%;
+}
+
+.spell img {
+    margin-right: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    transform: translate(0%, -10%);
+}
+
+.spell-list {
+    padding: 0;
+    margin: 0;
+}
+
+.spell-list2 {
+	padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.spell-percent {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 8px 12px;
+    text-align: right;
+}
+
+.list-items span {
+    color: #353945;
+    font-weight: 500;
+}
+
+.core-each {
+    height: 466px;
+}
+
+.core-combine {
+    height: 550px;
+}
+
+.skill {
+    height: 440px;
+}
+
+.rune {
+    height: 650px;
+}
+
+.what-level-container {    
+    border-bottom: 1px solid rgba(53, 57, 69, 0.2);
+    padding-bottom: 7px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(53, 57, 69, 0.2);
+}
+
+.what-level {
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    width: 50px;
+    height: 20px;
+    padding: 8px 10px;
+    color: #353945;
+}
+
+.display-none {
+	display: none;	
+}
+
+.display-block {
+	display: block;
+}
+
+.match-list a {
+	cursor: pointer;
+	text-decoration: none;
+	color: rgba(47,62,78,.7);
+}
+
+.what-level-active {
+    color: #213a96;
+    border: 1px solid #7e9bff;
+    border-bottom: 1px solid white;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.what-level:hover {
+    color: #7e9bff;
+    background-color: #f6f8ff;
+    border-top: 1px solid #7e9bff;
+    border-left: 1px solid #7e9bff;
+    border-right: 1px solid #7e9bff;
+    border-radius: 4px 4px 0px 0px;
+}
